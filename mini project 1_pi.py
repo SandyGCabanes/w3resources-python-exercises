@@ -17,7 +17,9 @@ while i < n+1:
     pi_list_forjoining.append(pi_string[i])
     i += 1
 pi_requested = "".join(pi_list_forjoining)
-print (pi_requested)
+print ('list method', pi_requested)
+
+print ('string index method', pi_string[0:n+1])
 
 
 
