@@ -16,10 +16,11 @@ def magic_8_ball():
     random_answer = list_a[random_answer_number]
     print (random_answer)
     ask_again = input('Do you want to ask another question? Y/N')
-    if ask_again == 'N' or 'n':
-        print ('End')
-    elif ask_again == 'Y' or 'y':
+    if ask_again == 'Y' or ask_again == 'y':
         magic_8_ball()
+    elif ask_again == 'N' or ask_again == 'n':
+        print ('End')
+
 magic_8_ball()
 
 
