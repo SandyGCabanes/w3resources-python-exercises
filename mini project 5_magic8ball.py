@@ -9,11 +9,14 @@ Create 10/20 responses, and show a random response.
 Allow the user to ask another question/advice or quit the game'''
 
 import random
+import time
 def magic_8_ball():
     question_asked = input('Type in your question:')
     list_a = ['It is certain','It is decidedly so','Without a doubt','Yes, definitely','You may rely on it','As I see it yes','Most likely','Outlook good','Yes','Signs point to yes','Reply hazy, try again','Ask again later','Better not tell you now','Cannot predict now','Concentrate and ask again','Don\'t count on it','My reply is no','My sources say no','Outlook not so good','Very doubtful']
     random_answer_number= random.randint(1,20)
     random_answer = list_a[random_answer_number]
+    print ('In progress...')
+    time.sleep(3)
     print (random_answer)
     ask_again = input('Do you want to ask another question? Y/N')
     if ask_again == 'Y' or ask_again == 'y':
