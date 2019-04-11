@@ -1,5 +1,6 @@
+
 #sandygcabanes
-#practicepython.org
+#w3resources.com
 #mini project 1 pi
 ''' Create a Python project to get the value of Pi to n number of decimal places.
 Note: Input a number and the program will generate PI to the nth digit'''
@@ -20,10 +21,4 @@ pi_requested = "".join(pi_list_forjoining)
 print ('list method', pi_requested)
 
 print ('string index method', pi_string[0:n+1])
-
-
-
-
-
-
 

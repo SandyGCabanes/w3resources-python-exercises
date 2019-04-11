@@ -1,5 +1,5 @@
 #sandygcabanes
-#practicepython.org
+#w3resources.com
 #mini project 3 guess a number
 ''' Create a Python project to guess a number that the computer selected'''
 

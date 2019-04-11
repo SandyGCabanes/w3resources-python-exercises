@@ -1,5 +1,5 @@
 #sandygcabanes
-#practicepython.org
+#w3resources.com
 #mini project 2 e
 ''' Create a Python project to get the value of e to n number of decimal places.
 Note: Input a number and the program will generate e to the nth digit'''

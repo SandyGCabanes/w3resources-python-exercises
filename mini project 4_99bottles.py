@@ -1,5 +1,5 @@
 #sandygcabanes
-#practicepython.org
+#w3resources.com
 #mini project 4 99 bottles
 ''' Create a Python project that prints out every line of the song
 "99 bottles of beer on the wall." Note: Try to use a built in function instead

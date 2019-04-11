@@ -1,5 +1,5 @@
 #sandygcabanes
-#practicepython.org
+#w3resources.com
 #mini project 5 magic 8 ball
 ''' Create a Python project of a Magic 8 Ball which is a toy used for
 fortune-telling or seeking advice.
